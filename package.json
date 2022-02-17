@@ -4,7 +4,9 @@
   "description": "Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "SET NODE_ENV=dev&& node index.js",
+    "devstart": "SET NODE_ENV=dev&& node index.js",
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
